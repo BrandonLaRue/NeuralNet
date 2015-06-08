@@ -2,7 +2,7 @@
 cd Scripts
 
 % Set X, y, and m from data
-load learningData.txt
+load data/learningData.txt
 
 % define a testing set
 testingX = X(101:130, :);
